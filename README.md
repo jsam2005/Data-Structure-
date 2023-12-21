@@ -1,7 +1,6 @@
 Day 1 - Arrays
 
 1.1Addition of Two Matrices
-
 1.2Multiplication of Two Matrices
 1.3Sum of Diagonals
 1.4Transpose of a Matrix
