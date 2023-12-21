@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	printf("Samuvel Raj\n192321159\n");
+	int a[100],n,ele,pos;
+	printf("Enter array Size\n");
+	scanf("%d",&n);
+	printf("Enter array element\n");
+	for(int i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("Enter element to search\n");
+	scanf("%d",&ele);
+	for(int i=0;i<n;i++)
+	{
+		if(a[i]==ele)
+		{
+			printf("%d is found at %d index\n",a[i],i);
+		}
+}
+}
+"C:\Users\sathi\Pictures\Screenshots\Screenshot 2023-12-21 133813.png"
