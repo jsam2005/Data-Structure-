@@ -1,0 +1,25 @@
+#include<stdio.h>
+int factorial(int n);
+int main()
+{
+  int num;
+  printf("Samuvel Raj\n192321159");
+  printf("\nFactorial using recursion\n");
+  printf("Enter the integer: ");
+  scanf("%d",&num);
+  printf("the factorial of %d is:%d", num, factorial(num));
+return 0;
+}
+int factorial(int n)
+{
+  if (n==0)
+  {
+    return 1;
+  }
+  else
+  {
+    return n*factorial(n-1);
+  }
+}
+
+"C:\Users\sathi\Pictures\Screenshots\Screenshot 2023-12-21 093456.png"
