@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+	printf("Samuvel Raj\n192321159\n");
+	int a[100],n,pos;
+	printf("Enter array Size\n");
+	scanf("%d",&n);
+	printf("Enter array element\n");
+	for(int i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("Enter which position to be display\n");
+	scanf("%d",&pos);
+	for(int i=pos;i<n;i++)
+	{
+		a[i]=a[i+1];
+	}
+	n--;
+	printf("Array after deletion\n");
+	for(int i=0;i<n;i++)
+	{
+		printf("%d ",a[i]);
+	}
+}
+"C:\Users\sathi\Pictures\Screenshots\Screenshot 2023-12-21 125724.png"
