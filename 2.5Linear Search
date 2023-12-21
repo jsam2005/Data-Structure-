@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int linearSearch(int arr[], int n, int key) {
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == key) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+int main() {
+	printf("Samuvel Raj.S\n192321159\n");
+    int arr[100],n,key;
+	printf("Enter number of element\n");
+	scanf("%d",&n);
+	printf("Enter target element\n");
+	scanf("%d",&key);
+	for(int i=0;i<n;i++)
+	{
+		scanf("%d",&arr[i]);
+	}
+    n = sizeof(arr) / sizeof(arr[0]);
+    int result = linearSearch(arr, n, key);
+    if (result == -1) {
+        printf("Element not found\n");
+    } else {
+        printf("Element found at index %d\n", result);
+    }
+    return 0;
+}
+"C:\Users\sathi\Pictures\Screenshots\Screenshot 2023-12-21 105004.png"
