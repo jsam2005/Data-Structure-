@@ -35,8 +35,13 @@ Day 1 - Arrays
 Day 2 - Recursion and Search
 
 2.1Find Fibbonacci series upto n numbers and it's sum
+
 2.2Find the Factorial of a given number
+
 2.3Find the nth Fibbonacci number using recursion
+
 2.4Find the Factorial of a given number using recursion
+
 2.5Linear search of array
+
 2.6Binary search of array
