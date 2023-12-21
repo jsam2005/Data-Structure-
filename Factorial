@@ -12,4 +12,5 @@ int main()
 	printf("the factorial of %d:%d",n,fact);
 	return 0;
 }
-"C:\Users\sathi\Pictures\Screenshots\Screenshot 2023-12-21 093010.png"
+![Image description](C:\Users\sathi\Pictures\Screenshots\Screenshot 2023-12-21 093010.png)
+
