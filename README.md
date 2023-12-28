@@ -47,6 +47,7 @@ Day 2 - Recursion and Search
 2.6Binary search of array
 
 Day 6
+
 6.1Write a function that takes a string containing parentheses , square brackets  and curly braces "  ( { [ ] } " and determines if the symbols are balanced.
  
 6.2Write a function to evaluate a given postfix expression. The expression is "44 2 / 6 -"
