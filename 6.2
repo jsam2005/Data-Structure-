@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#define MAX_SIZE 100
+int stack[MAX_SIZE];
+int top = -1;
+int is_operator(char symbol) {
+    return (symbol == '+' || symbol == '-' || symbol == '*' || symbol == '/');
+}
+void push(int item) {
+    if (top >= MAX_SIZE - 1) {
+        printf("Stack Overflow\n");
+        return;
+    }
+    stack[++top] = item;
+}
+int pop() {
+    if (top < 0) {
+        printf("Stack Underflow\n");
+        return -1;
+    }
+    return stack[top--];
+}
+int evaluate(char* expression) {
+    int i = 0, operand1, operand2, result;
+    char symbol;
+
+    while ((symbol = expression[i++]) != '\0') {
+        if (isdigit(symbol)) {
+            push(symbol - '0');  
+        } else if (is_operator(symbol)) {
+            operand2 = pop();
+            operand1 = pop();
+            switch (symbol) {
+                case '+': result = operand1 + operand2; break;
+                case '-': result = operand1 - operand2; break;
+                case '*': result = operand1 * operand2; break;
+                case '/':
+                    if (operand2 == 0) {
+                        printf("Error: Division by zero\n");
+                        return -1; 
+                    }
+                    result = operand1 / operand2;
+                    break;
+            }
+            push(result);
+        }
+    }
+
+    return pop();
+}
+int main() {
+    printf("SAMUVEL RAJ.S\n192321159\n");
+    char expression[] = "44 2 / 6 -";
+     printf("Expression is: 44 2 / 6 -\n");
+    int result = evaluate(expression);
+    if (result != -1) {
+        printf("Value of expression: %d\n", result);
+    }
+    return 0;
+}
