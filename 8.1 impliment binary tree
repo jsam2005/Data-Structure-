@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node {
+    int data;
+    struct node *left;
+    struct node *right;
+}*n;
+
+struct node* createnode(int num) {
+    n = (struct node*)malloc(sizeof(struct node));
+    n->data = num;
+    n->left = NULL;
+    n->right=NULL;
+    return n;
+}
+
+int main()
+{
+	struct node*root;
+	createnode(1);
+	root->right=createnode(10);
+	root->right->left=createnode(5);
+	root->right->right=createnode(12);
+	root->right->right->left=createnode(11);
+	printf("samuvel raj\n192321143");
+}
