@@ -53,3 +53,15 @@ Day 6
 6.2Write a function to evaluate a given postfix expression. The expression is "44 2 / 6 -"
 
 6.3Write a function to convert an infix expression to postfix notation. The infix expression is " "(a + b) * c + d "
+
+Day 13
+
+13.1 Implement a C Program to perform Merge Sort
+
+13.2. Implement a C Program to perform Insertion Sort
+
+13.3 Implement a C Program to perform Radix Sort
+
+13.4 Implement a C Program to perform Bubble Sort
+
+13.5 Implement a C Program to perform Shell Sort
