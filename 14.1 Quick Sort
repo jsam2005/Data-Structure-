@@ -1,0 +1,59 @@
+#include<stdio.h>
+void swap(int *i, int *j)
+{
+    int temp = *i;
+    *i = *j;
+    *j = temp;
+}
+
+int sort(int a[],int lb,int ub)
+{
+	int start=lb;
+	int end=ub;
+	int pivot=a[lb];
+	while(start<end)
+	{
+		while(a[start]<=pivot)
+		{
+			start++;
+		}
+		while(a[end]>pivot){
+			end--;
+		}
+		if(start<end)
+		{
+			swap(&a[start],&a[end]);
+		}
+	}
+	swap(&a[lb],&a[end]);
+	return end;
+}
+void quicksort(int a[],int lb,int ub)
+{
+	if(lb<ub)
+	{
+		int lock=sort(a,lb,ub);
+		sort(a,lb,lock-1);
+		sort(a,lock+1,ub);
+	}
+}
+int main()
+{
+	int a[100];
+	int n=sizeof(a)/sizeof(a[0]);
+	printf("Enter size\n");
+	scanf("%d",&n);
+	printf("%d\n",n);
+		printf("Enter element\n");
+	for(int i=0;i<n;i++){
+	scanf("%d",&a[i]);
+}
+quicksort(a,0,n-1);
+printf("sort\n");
+for(int i=0;i<n;i++)
+{
+	printf("%d ",a[i]);
+}
+
+	
+}
