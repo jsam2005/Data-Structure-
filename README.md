@@ -60,6 +60,20 @@ Day 13
 
 13.2. Implement a C Program to perform Insertion Sort
 
+13.3. Implement a C Program to perform Radix Sort
+
+13.4. Implement a C Program to perform Bubble Sort
+
+13.5. Implement a C Program to perform Shell Sort
+
+Day 14
+
+14.1. Implement a C Program to perform Quick Sort
+
+14.2. Implement a C Program to perform Selection Sort
+
+13.2. Implement a C Program to perform Insertion Sort
+
 13.3 Implement a C Program to perform Radix Sort
 
 13.4 Implement a C Program to perform Bubble Sort
