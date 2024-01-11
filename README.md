@@ -54,6 +54,56 @@ Day 6
 
 6.3Write a function to convert an infix expression to postfix notation. The infix expression is " "(a + b) * c + d "
 
+Day 7
+
+7.1.Implement Queue using array with following operations
+Enqueue( )
+Dequeue( )
+isEmpty( )
+isFull( )
+Display( )
+front( ) orPeek( )
+rear( )
+
+7.2 .Implement Queue using Linked List with following operations
+Enqueue( )
+Dequeue( )
+Display( )
+Front( )
+Rear( )
+
+7.3. Implement CircularQueue using array with following operations
+Enqueue( )
+Dequeue( )
+isEmpty( )
+isFull( )
+Display( )
+front( ) orPeek( )
+rear( )
+
+7.4 .Implement CircularQueue using Linked List with following operations
+Enqueue( )
+Dequeue( )
+Display( )
+Front( )
+Rear( )
+
+7.5. Implement Stack using two queues
+
+7.6. Implement Queue using two Stacks
+
+Day 8:
+
+8.1.Implement Binary tree
+
+8.2. Implement Binary Search Tree and perform Insertion and Deletion
+
+8.3. Create Binary Search Tree with Tree Traversal (Inorder, Preorder, Postorder and Level order)
+
+Day 9
+
+9.1Implement a C Program for AVL tree and perform Insertion and Deletion of Nodes
+
 Day 13
 
 13.1 Implement a C Program to perform Merge Sort
